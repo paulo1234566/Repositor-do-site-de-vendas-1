@@ -1,1 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domine a Calistenia - Curso Completo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-red-700 to-red-900 min-h-screen text-white">
+    <!-- Notification Banner -->
+    <div class="bg-yellow-400 text-red-900 py-3 px-4 text-center font-bold">
+        <i class="fas fa-exclamation-circle mr-2"></i>
+        ATENÇÃO: Após a compra, você receberá o curso completo no e-mail cadastrado dentro de até 24 horas!
+    </div>
 
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-200">
+                    DOMINE A CALISTENIA
+                </span>
+            </h1>
+            <p class="text-xl md:text-2xl font-semibold mb-6">O curso completo para transformar seu corpo usando apenas o peso do seu corpo</p>
+            
+            <div class="max-w-2xl mx-auto bg-red-800 rounded-lg p-6 shadow-xl border-2 border-yellow-400">
+                <div class="flex justify-center mb-6">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+                         alt="Calistenia" 
+                         class="rounded-lg shadow-lg floating w-full max-w-md">
+                </div>
+                
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-yellow-300">O QUE VOCÊ VAI APRENDER:</h2>
+                <ul class="text-left space-y-3 mb-8">
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mt-1 mr-2"></i>
+                        <span>Técnicas avançadas para iniciantes e intermediários</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mt-1 mr-2"></i>
+                        <span>Progressões para dominar exercícios como muscle-up, front lever e handstand</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mt-1 mr-2"></i>
+                        <span>Programas de treino personalizados para seus objetivos</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mt-1 mr-2"></i>
+                        <span>Nutrição e recuperação para melhores resultados</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-yellow-400 mt-1 mr-2"></i>
+                        <span>Acesso vitalício e atualizações gratuitas</span>
+                    </li>
+                </ul>
+                
+                <div class="bg-red-900 rounded-lg p-4 mb-6 border border-yellow-400">
+                    <p class="font-bold text-lg mb-2">OFERTA POR TEMPO LIMITADO!</p>
+                    <p class="text-xl font-bold text-yellow-300">De <span class="line-through">R$97,00</span> por apenas R$43,00</p>
+                    <p class="text-sm">Pagamento único à vista</p>
+                </div>
+                
+                <a href="https://pay.kiwify.com.br/RDhxPuk" target="_blank" rel="noopener noreferrer"
+                   class="pulse-animation bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-red-900 font-extrabold py-4 px-8 rounded-full text-xl inline-block shadow-lg transform transition hover:scale-105">
+                    <i class="fas fa-bolt mr-2"></i> QUERO ME INSCREVER AGORA!
+                </a>
+                
+                <div class="mt-6 flex items-center justify-center">
+                    <div class="flex items-center mr-4">
+                        <i class="fas fa-lock text-yellow-400 text-2xl mr-2"></i>
+                        <span>Compra 100% segura</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-shield-alt text-yellow-400 text-2xl mr-2"></i>
+                        <span>7 dias de garantia</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Testimonials -->
+        <section class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-yellow-300">O QUE NOSSOS ALUNOS DIZEM</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-red-800 p-6 rounded-lg shadow-lg border border-yellow-400">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Aluno" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Carlos Silva</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Em 3 meses consegui fazer meu primeiro muscle-up! As progressões do curso são perfeitas para quem está começando."</p>
+                </div>
+                
+                <div class="bg-red-800 p-6 rounded-lg shadow-lg border border-yellow-400">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Aluna" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Ana Oliveira</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Nunca imaginei que conseguiria fazer handstand. Com as técnicas do curso, em 2 meses já estava fazendo contra a parede!"</p>
+                </div>
+                
+                <div class="bg-red-800 p-6 rounded-lg shadow-lg border border-yellow-400">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Aluno" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Ricardo Santos</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"O programa de nutrição mudou completamente meus resultados. Perdi 8kg de gordura e ganhei muita força!"</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="my-16 max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-yellow-300">PERGUNTAS FREQUENTES</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-red-800 rounded-lg p-4 border border-yellow-400">
+                    <button class="flex justify-between items-center w-full font-bold text-left">
+                        <span>Como receberei o curso após a compra?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="mt-2">
+                        <p>Após a confirmação do pagamento, você receberá um e-mail com todos os detalhes de acesso ao curso no endereço de e-mail cadastrado. O envio pode levar até 24 horas.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-red-800 rounded-lg p-4 border border-yellow-400">
+                    <button class="flex justify-between items-center w-full font-bold text-left">
+                        <span>Por quanto tempo terei acesso ao curso?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="mt-2">
+                        <p>Você terá acesso vitalício ao curso, incluindo todas as atualizações futuras sem custo adicional.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-red-800 rounded-lg p-4 border border-yellow-400">
+                    <button class="flex justify-between items-center w-full font-bold text-left">
+                        <span>O curso é adequado para iniciantes?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="mt-2">
+                        <p>Sim! O curso possui módulos específicos para iniciantes, com progressões detalhadas para cada exercício.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-red-800 rounded-lg p-4 border border-yellow-400">
+                    <button class="flex justify-between items-center w-full font-bold text-left">
+                        <span>E se eu não gostar do curso?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="mt-2">
+                        <p>Oferecemos garantia incondicional de 7 dias. Se por qualquer motivo você não estiver satisfeito, basta nos enviar um e-mail e devolveremos 100% do seu investimento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="text-center my-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">PRONTO PARA TRANSFORMAR SEU CORPO?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Junte-se a milhares de alunos que já dominaram a calistenia com nosso método comprovado!</p>
+            
+            <a href="https://pay.kiwify.com.br/RDhxPuk" target="_blank" rel="noopener noreferrer"
+               class="pulse-animation bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-red-900 font-extrabold py-4 px-8 rounded-full text-xl inline-block shadow-lg transform transition hover:scale-105">
+                <i class="fas fa-bolt mr-2"></i> QUERO ME INSCREVER AGORA!
+            </a>
+            
+            <p class="mt-6 text-sm opacity-80">Você será redirecionado para uma página de pagamento segura</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-red-950 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">© 2023 Domine a Calistenia. Todos os direitos reservados.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 text-xl"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 text-xl"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 text-xl"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple FAQ toggle functionality
+        document.querySelectorAll('.bg-red-800 button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
